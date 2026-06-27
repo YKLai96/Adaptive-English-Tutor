@@ -1,0 +1,60 @@
+# ==========================================
+# Python Specific Ignored Files
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Project Specific Ignored Files (CRITICAL)
+# ==========================================
+# Ignore the local dynamic ledger to protect user data
+user_profile.json
+
+# Ignore temporary audio files generated during voice interactions
+*.ogg
+*.wav
+temp_*.ogg
+temp_*.wav
+tts_*.wav
+
+# Ignore any secret config files (if you ever use them)
+secrets.json
+config.py
+local_settings.py
+
+# ==========================================
+# OS / IDE Specific Ignored Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
